@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MultiModuleComposeApp"
+rootProject.name = "MultiModuleComposeProject"
 include(":app")
  

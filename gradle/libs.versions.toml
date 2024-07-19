@@ -8,6 +8,8 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.3"
 activityCompose = "1.9.0"
 composeBom = "2024.04.01"
+sonarVersion="4.4.1.3373"
+sonarScannerVersion="3.5.0.2730"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -28,4 +30,6 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+sonar-qube = { id = "org.sonarqube", version.ref = "sonarVersion" }
+sonar-scanner = { id = "org.sonarsource.scanner.gradle-sonarqube-gradle-plugin", version.ref = "sonarScannerVersion" }
 
